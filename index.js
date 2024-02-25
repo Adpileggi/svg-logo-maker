@@ -26,8 +26,9 @@ inquirer
             message: 'Please input a shape color (or hexadecimal number)'
         }
     ]).then((data) => {
-            console.log(generateSVG(data))
 
-            fs.writeFile('logo.svg', generateSVG(data));
-
+            fs.writeFile('./examples/.logo.svg', generateSVG(data), (err) => {
+                if (err) throw err;
+                console.log('Generated logo.svg');
+            });
     })
