@@ -20,6 +20,8 @@
 
   When the user types 'node index.js into the command line, they will see a series of prompts. When the user finishes answering each prompt, they will see a logo.svg file created in the examples folder. The logo will match the criteria that the user entered.
 
+  [Video Demo](https://drive.google.com/file/d/1fmBZiTW4VwpZfMTxmMfbqN2o9EPH5gtD/view)
+
   ## Testing
 
   N/A
